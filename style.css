@@ -1,0 +1,63 @@
+
+@media (min-width: 576px) {
+    .dropdown:hover .dropdown-menu {
+      display: block;
+      margin-top: 0;
+    }
+    
+    /* Prevent conflicts between hover and clickable link */
+    .nav-item.dropdown > div > a:first-child {
+      pointer-events: auto; /* Ensures the anchor is clickable */
+    }
+  }
+  body {
+    padding-top: 78px;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+    color: black;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%; 
+    
+  }
+  
+  .fs-1 {
+    text-align: center;
+    font-weight: bolder;
+  } 
+
+ .bulk{
+  font-family: "Kanit", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.brut {
+  font-family: "Monoton", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.header{
+
+  height:700px ;
+  width:100% ;
+  background-image: url(images/about/polygonal-world-map-low-poly-design-origami-vector-18949107.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  }
+
+
+
+.trr{
+
+  font-size: 48px;
+
+}

@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fertilizer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css" />
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monoton&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- icon -->
+    <link rel="website icon" type="png" href="images/FAVNAME.png">
+
+    <style>
+      .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+        background-color: #343a40;
+        color: #28a745;
+      }
+
+      .nav-link:hover {
+        background-color: #343a40;
+        color: #28a745;
+      }
+
+      .hero {
+        background-image: url(assests/IMG/FertilizerBackground.jpg);
+        background-size: cover;
+        background-position: center;
+      }
+      hr {
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- navbar start -->
+
+    <nav class="navbar navbar-expand-sm bg-dark fixed-top border-white ">
+      <div class="col-sm-12 col">
+        <div class="container-fluid  flex-column">
+         
+          <div class="d-flex justify-content-center align-items-center  " style="width: 100%;">
+            <img class="me-2 " width="55px" height="55px" src="images/LOGO.png" alt="">
+            <a class="navbar-brand text-success text-center fs-1 fw-medium bulk brut textopacity" href="index.html"
+              style="font-size: 3rem;">
+              Garden World
+            </a>
+          </div>
+          <!-- Toggle Button -->
+          <button class="navbar-toggler border border-white bg-success m-2" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        
+      
+        
+        <div class="collapse navbar-collapse justify-content-center " id="navbarSupportedContent"
+          style="width: 100%;">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+    
+              <a class="nav-link text-white fw-medium bulk " href="plant accessories.html" >
+                <i class="fas fa-paint-roller me-2"></i>
+                Plant Accessories
+              </a>
+              <ul class="dropdown-menu bg-black border border-success ">
+                <li><a class="dropdown-item text-white fw-medium bulk" href="plant accessories.html#products">Gardening Accessories</a></li>
+                <li><a class="dropdown-item text-white fw-medium bulk" href="plant accessories.html#toys">Miniature gardening toys</a></li>
+                <li><a class="dropdown-item text-white fw-medium bulk" href="plant accessories.html#pebbles">Decorative pebbles</a></li>
+                <li><a class="dropdown-item text-white fw-medium bulk" href="plant accessories.html#videos">Accessories related videos</a></li>
+                <li><a class="dropdown-item text-white fw-medium bulk" href="plant accessories.html#blogs">blogs for information</a></li>
+                <li><a class="dropdown-item text-white fw-medium bulk" href="plant accessories.html#books">Planting tools related books
+                </a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-white fw-medium bulk " href="fertilizers.html" >
+                <i class="fas fa-leaf me-2"></i>
+                Fertilizers
+              </a>
+              <ul class="dropdown-menu bg-black border border-success ">
+                <li><a class="dropdown-item text-white fw-medium bulk" href="fertilizers.html#type">Types</a></li>
+                <li><a class="dropdown-item text-white fw-medium bulk" href="fertilizers.html#Product">Product's</a></li>
+                <li><a class="dropdown-item text-white fw-medium bulk" href="fertilizers.html#books">Book's
+                </a></li>
+                
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-white fw-medium bulk" href="Pesticides.html" >
+                <i class="fas fa-bug me-2"></i>
+                Pesticides
+              </a>
+              <ul class="dropdown-menu bg-black border border-success">
+                <li><a class="dropdown-item text-white fw-medium bulk" href="Pesticides.html#Product">Our Products</a></li>
+                <li><a class="dropdown-item text-white fw-medium bulk" href="Pesticides.html#safety">Safety Tips</a></li>
+                <li><a class="dropdown-item text-white fw-medium bulk" href="Pesticides.html#benifits">Benefits</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-white fw-medium bulk" href="seeds implantation.html" >
+                <i class="fas fa-seedling me-2"></i>
+                Seeds implantation
+              </a>
+              <ul class="dropdown-menu bg-black border border-success">
+                <li><a class="dropdown-item text-white fw-medium bulk" href="seeds implantation.html#1">What Is Seed Implantation</a></li>
+                <li><a class="dropdown-item text-white fw-medium bulk" href="seeds implantation.html#2">Basic Steps Of Seed Implantation</a></li>
+                <li><a class="dropdown-item text-white fw-medium bulk" href="seeds implantation.html#3"> Steps Of Seed Implantation</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white fw-medium bulk" href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fas fa-question-circle me-2"></i>
+                Customer Support
+              </a>
+              <ul class="dropdown-menu bg-black shadow-lg rounded-3 border border-success">
+                <li><a class="dropdown-item text-white fw-medium bulk" href="help.html" >Help</a></li>
+                <li><a class="dropdown-item text-white fw-medium bulk" href="about.html" >About</a></li>
+                <li><a class="dropdown-item text-white fw-medium bulk" href="contact.html" >Contact Us</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    
+    </nav>
+
+
+  <!-- navbar ends -->
+
+    <div class="bg-dark">
+      <!-- HERO SECTION START -->
+      <div class="hero text-white text-center py-5">
+        <br /><br /><br /><br /><br /><br /><br /><br />
+        <h1><b>Welcome To Garden World Fertilizers</b></h1>
+        <p><b>Your non-stop shop for gardening.</b></p>
+        <br /><br /><br /><br /><br />
+        <a href="#Product" class="btn btn-success"> <b>Shop Now </b></a>
+        <br /><br /><br />
+      </div>
+      <!-- HERO SECTION END -->
+
+      <!-- Introduction -->
+      <hr />
+      <section id="introduction ">
+        <div class="container">
+          <div class="row">
+            <div class="container text-center text-white fw-bold mt-4">
+              <h1>
+                <b>Introduction Of Fertilizers</b>
+              </h1>
+            </div>
+
+            <div class="col-lg-8 col-md-8 col-sm-12 mt-5 img-fluid text-white">
+              <br />
+              <p data-aos="fade-up">
+                Fertilizers are substances that are added to soil or plants to
+                provide essential nutrients that promote healthy growth and
+                increase crop yields. They play a crucial role in modern
+                agriculture by replenishing soil nutrients that may be depleted
+                due to continuous farming. Over time, soil loses vital nutrients
+                due to repeated cultivation, erosion, and nutrient uptake by
+                plants. Without replenishing these nutrients, crop production
+                may decline, leading to food shortages and reduced agricultural
+                output. Fertilizers supply key macronutrients such as nitrogen
+                (N), phosphorus (P), and potassium (K), as well as essential
+                micronutrients like calcium, magnesium, and sulfur, which are
+                necessary for plant growth and development. They help enhance
+                root development, improve photosynthesis, and increase
+                resistance to pests and diseases. By using fertilizers
+                efficiently, farmers can ensure higher yields, healthier crops,
+                and improved soil fertility. However, while fertilizers offer
+                numerous benefits, their excessive or improper use can lead to
+                soil degradation, water pollution, and environmental harm.
+                Sustainable farming practices, such as precision agriculture,
+                organic fertilizers, and controlled-release fertilizers, can
+                help maximize the benefits while minimizing negative impacts.
+              </p>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-4 col-sm-12 mt-5 rounded img-fluid img-responsive"
+            >
+              <img
+                class="rounded img-fluid img-responsive"
+                data-aos="fade-down"
+                src="images/fertilizer introduction.webp"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Introduction End-->
+
+      <hr>
+
+      <!-- types  -->
+
+      <div id="type" class="container text-center text-white fw-bold mt-4">
+        <h1>
+          <b>Types Of Fertilizers</b>
+        </h1>
+      </div>
+
+
+
+      <div class="container lg-4 md-4 sm-12 d-flex justify-content-center">
+        <div class="row">
+          <!-- step1  -->
+          <div data-aos="zoom-in" class="card m-3" style="width: 18rem;">
+            <img src="images/Fertilizer types/Organic Fertilizers.webp" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Organic Fertilizers</h5>
+              <p class="card-text">Made from natural sources like compost and manure.</p>
+    
+            </div>
+          </div>
+          <!-- step 2  -->
+          <div data-aos="zoom-in" class="card m-3" style="width: 18rem;">
+            <img src="images/Fertilizer types/Synthetic Fertilizers.webp" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Synthetic Fertilizers</h5>
+              <p class="card-text">Manufactured with specific nutrient compositions.</p>
+    
+            </div>
+          </div>
+    
+          <!-- step 3 -->
+          <div data-aos="zoom-in"  class="card m-3" style="width: 18rem;">
+            <img src="images/Fertilizer types/Liquid Fertilizers.webp" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Liquid Fertilizers</h5>
+              <p class="card-text">Quick absorption and ideal for fast-growing plants.</p>
+    
+            </div>
+          </div>
+    
+        </div>
+      </div>
+
+
+
+      <hr>
+      <!-- types  -->
+
+      <div id="Product" class="mt-4 text-white">
+        <h1 class="text-center"><b>Product's</b></h1>
+      </div>
+
+      <!-- Products Section Start-->
+      <!-- PRODUCT 1 -->
+      <div class="container mt-4 " >
+        <div class="row">
+          <div data-aos="fade-down" class="col-md-6 col-lg-3 col-sm-12">
+            <div class="card m-1 rounded-5" style="width: 100%; height: 450px;">
+              <img
+                src="images/Miracle-Gro.png"
+                class="card-img-top m-4 rounded mx-auto d-block img-fluid"
+                alt="..."
+                style="width: 40%; height: 175px"
+              />
+              <div class="card-body">
+                <h3 class="card-title text-center"><b>Miracle-Gro</b></h3>
+                <p class="card-text text-center">
+                  Promotes rapid growth, improves flowering, and increases fruit
+                  production.
+                </p>
+                <a
+                  href="Fertilizer product/Miracle-Gro.html"
+                  style="position: absolute ; bottom: 10px; left: 30%;"
+                  class="btn btn-success"
+                >
+                  <b>Check Out</b></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- PRODUCT 1 END  -->
+
+          <!-- PRODUCT 2 -->
+          <div data-aos="fade-up" class="col-md-6 col-lg-3 col-sm-12">
+            <div class="card m-1 rounded-5" style="width: 100%; height: 450px; ">
+              <img
+                src="images/Jobe's Organics.png"
+                class="card-img-top m-4 rounded mx-auto d-block img-fluid"
+                alt="..."
+                style="width: 40%; height: 175px"
+              />
+              <div class="card-body">
+                <h3 class="card-title text-center"><b>Jobe's Organics</b></h3>
+                <p class="card-text text-center">
+                  Made from natural ingredients and contains beneficial microbes
+                  for soil health.
+                </p>
+                <a
+                  href="Fertilizer product/Jobe's Organics.html"
+                  style="position: absolute ; bottom: 10px; left: 30%;"
+                  class="btn btn-success"
+                >
+                  <b>Check Out</b></a
+                >
+              </div>
+            </div>
+          </div>
+
+
+
+            <!-- PRODUCT 2 END  -->
+            <!-- PRODUCT 3 -->
+          <div class="col-md-6 col-lg-3 col-sm-12">
+            <div data-aos="fade-down" class="card m-1 rounded-5" style="width: 100%; height: 450px;">
+              <img
+                src="images/Espoma Plant-tone.png"
+                class="card-img-top m-4 rounded mx-auto d-block img-fluid"
+                alt="..."
+                style="width: 40%; height: 175px"
+              />
+              <div class="card-body">
+                <h3 class="card-title text-center"><b>Plant-tone</b></h3>
+                <p class="card-text text-center">
+                  Includes natural ingredients like bone meal, alfalfa meal, and
+                  more to nourish the plants.
+                </p>
+                <a
+                  href="Fertilizer product/Plant-tone.html"
+                  style="position: absolute ; bottom: 10px; left: 30%;"
+                  class="btn btn-success"
+                >
+                  <b>Check Out</b></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- PRODUCT 3 END  -->
+
+            <!-- PRODUCT 4 -->
+          <div class="col-md-6 col-lg-3 col-sm-12">
+            <div data-aos="fade-up" class="card m-1 rounded-5" style="width: 100%; height: 450px;">
+              <img
+                src="images/Osmocote.png"
+                class="card-img-top m-4 rounded mx-auto d-block img-fluid"
+                alt="..."
+                style="width: 40%; height: 175px"
+              />
+              <div class="card-body">
+                <h3 class="card-title text-center"><b>Osmocote</b></h3>
+                <p class="card-text text-center">
+                  Slow-release formula provides steady feeding over time,
+                  reducing the need for frequent applications.
+                </p>
+                <a
+                  href="Fertilizer product/Osmocote.html"
+                  style="position: absolute ; bottom: 10px; left: 30%;"
+                  class="btn btn-success"
+                >
+                  <b>Check Out</b></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- PRODUCT 4 END  -->
+        </div>
+      </div>
+      <!-- PRODUCT 5 -->
+      <div class="container mt-4" >
+        <div class="row">
+          <div data-aos="fade-down" class="col-md-6 col-lg-3 col-sm-12">
+            <div class="card m-1 rounded-5" style="width: 100%; height: 450px;">
+              <img
+                src="images/FoxFarm.png"
+                class="card-img-top m-4 rounded mx-auto d-block img-fluid"
+                alt="..."
+                style="width: 40%; height: 175px"
+              />
+              <div class="card-body">
+                <h3 class="card-title text-center"><b>FoxFarm</b></h3>
+                <p class="card-text text-center">
+                  Contains beneficial microorganisms and is rich in nutrients
+                  for vibrant growth.
+                </p>
+                <a
+                  href="Fertilizer product/FoxFarm.html"
+                  style="position: absolute ; bottom: 10px; left: 30%;"
+                  class="btn btn-success"
+                >
+                  <b>Check Out</b></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- PRODUCT 5 END  -->
+
+          <!-- PRODUCT 6 -->
+          <div data-aos="fade-up" class="col-md-6 col-lg-3 col-sm-12 ">
+            <div class="card m-1 rounded-5" style="width: 100%; height: 450px; ">
+              <img
+                src="images/Schultz Plant Food.png"
+                class="card-img-top m-4 rounded mx-auto d-block img-fluid"
+                alt="..."
+                style="width: 40%; height: 150px"
+              />
+              <div class="card-body">
+                <h3 class="card-title text-center"><b>Plant Food</b></h3>
+                <p class="card-text text-center">
+                  Encourages strong root development, lush foliage, and abundant
+                  blooms.
+                </p>
+                <a
+                  href="Fertilizer product/Plant Food.html"
+                  style="position: absolute ; bottom: 10px; left: 30%;"
+                  class="btn btn-success"
+                >
+                  <b>Check Out</b></a
+                >
+              </div>
+            </div>
+          </div>
+
+
+
+            <!-- PRODUCT 6 END  -->
+            <!-- PRODUCT 7 -->
+          <div class="col-md-6 col-lg-3 col-sm-12">
+            <div data-aos="fade-down" class="card m-1 rounded-5" style="width: 100%; height: 450px;">
+              <img
+                src="images/Pour & Feed Plant.jpg"
+                class="card-img-top m-4 rounded mx-auto d-block img-fluid"
+                alt="..."
+                style="width: 40%; height: 175px"
+              />
+              <div class="card-body">
+                <h3 class="card-title text-center"><b>Pour & Feed Plant</b></h3>
+                <p class="card-text text-center">
+                  A highly acclaimed liquid fertilizer for promoting healthy plant growth and blooming
+                </p>
+                <a
+                  href="Fertilizer product/Pour & Feed Plant.html"
+                  style="position: absolute ; bottom: 10px; left: 30%;"
+                  class="btn btn-success"
+                >
+                  <b>Check Out</b></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- PRODUCT 7 END  -->
+
+            <!-- PRODUCT 8 -->
+          <div class="col-md-6 col-md-3 col-lg-3 col-sm-12">
+            <div data-aos="fade-up" class="card m-1 rounded-5" style="width: 100%; height: 450px;">
+              <img
+                src="images/liquid amino.jpg"
+                class="card-img-top m-4 rounded mx-auto d-block img-fluid"
+                alt="..."
+                style="width: 40%; height: 175px"
+              />
+              <div class="card-body">
+                <h3 class="card-title text-center"><b>Liquid Aminos</b></h3>
+                <p class="card-text text-center">
+                  A popular and frequently recommended liquid fertilizer for optimal nutrient absorption in various plants
+                </p>
+                <a
+                  href="Fertilizer product/Liquid Aminos.html"   style="position: absolute ; bottom: 10px; left: 30%;"
+                  class="btn btn-success"
+                >
+                  <b>Check Out</b></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- PRODUCT 8 END  -->
+        </div>
+      </div>
+
+    
+
+
+     
+
+     
+
+         
+      <hr />
+      <!-- Products Section End-->
+
+      <!-- Books -->
+      <div id="books"></div>
+
+      <section class="mt-5">
+        <div class="container">
+          <div class="row">
+            <div class="d-flex text-center justify-content-center mt-5">
+              <h1 class="fs-1 fw-bold m-3 text-start text-white">Book's</h1>
+              <br />
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 img-fluid">
+              <img
+                style="height: 400px"
+                class="rounded img-fluid img-responsive"
+                src="images/Fertilizer books/TheFertilizerEncyclopedia.png"
+                alt=""
+              />
+              <br /><br />
+              <h4 class="text-white">TheFertilizerEncyclopedia</h4>
+              <br />
+              <a
+                class="btn btn-outline-success"
+                href="https://www.google.com.pk/books/edition/The_Fertilizer_Encyclopedia/GP1caeWDUWkC?hl=en&gbpv=1&dq=fertilizer%20books&pg=PP1&printsec=frontcover"
+                target="_blank"
+                >Read here</a
+              >
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 img-fluid">
+              <img
+                style="height: 400px; width: 300px"
+                class="rounded img-fluid img-responsive"
+                src="images/Fertilizer books/Fluid Fertilizer science abd technology.jfif"
+                alt=""
+              />
+              <br /><br />
+              <h4 class="text-white">Fluid Fertilizer</h4>
+              <br />
+              <a
+                class="btn btn-outline-success"
+                href="https://www.google.com.pk/books/edition/Fluid_Fertilizer_Science_and_Technology/Izme8QG8BkcC?hl=en&gbpv=1&dq=fertilizer%20books&pg=PP1&printsec=frontcover"
+                target="_blank"
+                >Read here</a
+              >
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 img-fluid">
+              <img
+                style="height: 400px"
+                class="rounded img-fluid img-responsive"
+                src="images/Fertilizer books/The Fertilizer Industry.png"
+                alt=""
+              />
+              <br /><br />
+              <h4 class="text-white">The Fertilizer Industry</h4>
+              <br />
+              <a
+                class="btn btn-outline-success"
+                href="https://www.google.com.pk/books/edition/The_Fertilizer_Industry/lfaiAgAAQBAJ?hl=en&gbpv=1&dq=fertilizer%20books&pg=PP1&printsec=frontcover"
+                target="_blank"
+                >Read here</a
+              >
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 img-fluid">
+              <img
+                style="height: 400px"
+                class="rounded img-fluid img-responsive"
+                src="images/Fertilizer books/Fertilizer Manual.jfif"
+                alt=""
+              />
+              <br /><br />
+              <h4 class="text-white">Fertilizer Manual</h4>
+              <br />
+              <a
+                class="btn btn-outline-success"
+                href="https://www.google.com.pk/books/edition/Fertilizer_Manual/qPkoOU4BvEsC?hl=en&gbpv=1&pg=PP1&printsec=frontcover"
+                target="_blank"
+                >Read here</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+
+      <!-- Books End-->
+
+      <!-- FOOTER -->
+      <footer class="bg-dark text-white pt-5 pb-4 mt-4">
+        <div class="container text-center text-m-d-left">
+          <div class="row text-center text-m-d-left">
+            <div class="col-md-3 col-lg-3 col-sm-3 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 fw-bold fs-4 text-success">
+                Garden World
+              </h5>
+              <p class="jus">
+                Garden World, established in 1969 in pakistan, is your go-to
+                platform for gardening essentials. From tools and seeds to
+                expert tips, we help gardeners of all levels create thriving
+                green spaces, bringing the joy of gardening to homes everywhere.
+              </p>
+            </div>
+
+            <div class="col-md-2 col-lg-2 col-sm-2 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 fw-bold fs-4 text-success">
+                products
+              </h5>
+              <p>
+                <a href="#" class="text-white" style="text-decoration: none"
+                  >Support</a
+                >
+              </p>
+              <p>
+                <a href="#" class="text-white" style="text-decoration: none"
+                  >Discover</a
+                >
+              </p>
+              <p>
+                <a href="#" class="text-white" style="text-decoration: none"
+                  >Terms and Settings</a
+                >
+              </p>
+              <p>
+                <a href="#" class="text-white" style="text-decoration: none"
+                  >Partners</a
+                >
+              </p>
+              <p>
+                <a href="about.html" class="text-white" style="text-decoration: none"
+                  >About</a
+                >
+              </p>
+            </div>
+
+            <div class="col-md-3 col-lg-2 col-sm-2 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 fw-bold fs-4 text-success">
+                Useful link
+              </h5>
+              <p>
+                <a href="#" class="text-white" style="text-decoration: none"
+                  >Your Account
+                </a>
+              </p>
+              <p>
+                <a href="#" class="text-white" style="text-decoration: none"
+                  >Become an Affiliate</a
+                >
+              </p>
+              <p>
+                <a href="#" class="text-white" style="text-decoration: none"
+                  >Shipping Rates</a
+                >
+              </p>
+              <p>
+                <a href="help.html" class="text-white" style="text-decoration: none"
+                  >Help</a
+                >
+              </p>
+            </div>
+
+            <div class="col-md-4 col-lg-3 col-sm-3 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 fw-bold fs-4 text-success">
+                Contacts
+              </h5>
+              <p><i class="fas fa-home mr-3"></i> karachi, kr 9288, Pk</p>
+              <p>
+                <i class="fas fa-envelope mr-3"></i> customer@gardenworld.com
+              </p>
+              <p><i class="fas fa-phone mr-3"></i> +9288 850-3958</p>
+              <p><i class="fas fa-print mr-3"></i> +9288 569-2011</p>
+            </div>
+          </div>
+
+          <hr class="mb-4" />
+          <div class="row align-item-center">
+            <div class="col-md-7 col-lg-8 ms-auto container">
+              <p>
+                Copyright @2025 All Right Reserved by:
+                <a href="#" style="text-decoration: none">
+                  <strong class="text-success">Garden World.com</strong>
+                </a>
+              </p>
+            </div>
+
+            <div class="col-md-5 col-lg-4">
+              <div class="text-center text-m-d-right">
+                <ul class="list-unstyled list-inline">
+                  <li class="list-inline-item">
+                    <a
+                      href="#"
+                      class="btn-floating btn-sm text-white"
+                      style="font-size: 28px"
+                      ><i class="fab fa-facebook"></i
+                    ></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a
+                      href="#"
+                      class="btn-floating btn-sm text-white"
+                      style="font-size: 28px"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a
+                      href="#"
+                      class="btn-floating btn-sm text-white"
+                      style="font-size: 28px"
+                      ><i class="fab fa-google-plus"></i
+                    ></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a
+                      href="#"
+                      class="btn-floating btn-sm text-white"
+                      style="font-size: 28px"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a
+                      href="#"
+                      class="btn-floating btn-sm text-white"
+                      style="font-size: 28px"
+                      ><i class="fab fa-youtube"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- bg-dark -->
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
